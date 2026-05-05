@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 350px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 6px;
+    cursor: pointer;
+}
+
+li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* 🌙 Dark Mode */
+.dark {
+    background: #121212;
+    color: white;
+}
+
+.dark .container {
+    background: #1e1e1e;
+}
+
+.dark li {
+    background: #333;
+}
+
+.dark button {
+    background: #444;
+    color: white;
+}
